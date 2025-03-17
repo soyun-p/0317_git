@@ -39,7 +39,7 @@ public class Hangman {
 
 
 			} // for
-			
+
 			System.out.println(ansTest);
 
 
@@ -53,27 +53,27 @@ public class Hangman {
 				cnt++;
 				continue out;
 			}
-				System.out.print("Word : " + ansTest);
-				cnt++;
-				continue out;
-			
-			
+			System.out.print("Word : " + ansTest);
+			cnt++;
+			continue out;
 
-			// 정답이 나왔을 때
-			/*if( ansTest.equals(answer) ) {
-				System.out.println(answer + "정답!");
-				System.out.println(cnt + "회만에 정답!");
-				break out;
-			}*/
+
+
+
 
 
 
 
 
 		} // while
-		
-		
 
+
+		// 정답이 나왔을 때
+		/* if( ansTest.equals(answer) ) {
+			System.out.println(answer + "정답!");
+			System.out.println(cnt + "회만에 정답!");
+			break out;
+		} */
 
 
 
